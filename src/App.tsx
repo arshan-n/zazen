@@ -4,11 +4,11 @@ import { Bot as Lotus, BookOpen, ListChecks, History } from 'lucide-react';
 function App() {
   return (
     <div className="min-h-screen bg-black text-white">
-      {/* Decorative Pattern */}
+      
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgb(38,38,38)_1px,transparent_0)] bg-[length:40px_40px] opacity-30 pointer-events-none" />
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        {/* Header */}
+        
         <div className="text-center mb-24 relative">
           <div className="absolute -top-10 left-1/2 -translate-x-1/2 w-px h-20 bg-gradient-to-b from-transparent via-white to-transparent opacity-30" />
           <h1 className="text-6xl font-extralight tracking-tight mb-6">
@@ -17,9 +17,9 @@ function App() {
           <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 w-px h-20 bg-gradient-to-b from-white via-white to-transparent opacity-30" />
         </div>
 
-        {/* Main Content */}
+        
         <div className="grid gap-16 relative">
-          {/* What is Zazen */}
+         
           <section className="group relative">
             <div className="absolute -inset-1 bg-gradient-to-r from-white/10 to-transparent blur opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             <div className="relative border border-white/10 backdrop-blur-sm bg-black/40 p-12 rounded-2xl">
@@ -40,7 +40,7 @@ function App() {
             </div>
           </section>
 
-          {/* Why Practice Zazen */}
+          
           <section className="group relative">
             <div className="absolute -inset-1 bg-gradient-to-r from-white/10 to-transparent blur opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             <div className="relative border border-white/10 backdrop-blur-sm bg-black/40 p-12 rounded-2xl">
@@ -76,7 +76,7 @@ function App() {
             </div>
           </section>
 
-          {/* Step-by-Step Guide */}
+          
           <section className="group relative">
             <div className="absolute -inset-1 bg-gradient-to-r from-white/10 to-transparent blur opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             <div className="relative border border-white/10 backdrop-blur-sm bg-black/40 p-12 rounded-2xl">
@@ -133,7 +133,7 @@ function App() {
             </div>
           </section>
 
-          {/* History */}
+          
           <section className="group relative">
             <div className="absolute -inset-1 bg-gradient-to-r from-white/10 to-transparent blur opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             <div className="relative border border-white/10 backdrop-blur-sm bg-black/40 p-12 rounded-2xl">
@@ -159,7 +159,7 @@ function App() {
             </div>
           </section>
 
-          {/* Footer */}
+          
           <footer className="text-center mt-16 opacity-60"></footer>
         </div>
       </div>
